@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sadazure | socials</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      font-family: 'Press Start 2P', cursive;
+      color: #ff69b4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background-image: repeating-linear-gradient(45deg, #fff, #fff 10px, #ffddee 10px, #ffddee 20px);
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin-top: 40px;
+      image-rendering: pixelated;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+    h1 {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 50px;
+      animation: fadeIn 1.5s ease-in;
+    }
+    .link-btn {
+      background-color: #ff69b4;
+      color: white;
+      padding: 14px 24px;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px #d15297;
+      font-size: 12px;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .link-btn:hover {
+      background-color: #e6589f;
+      box-shadow: 0 2px #b23c7d;
+      transform: translateY(2px);
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="joystick.png" alt="Pixel Joystick" class="avatar" />
+  <h1>sadazure</h1>
+  <div class="links">
+    <a class="link-btn" href="https://www.tiktok.com/@sad_azure" target="_blank">TikTok</a>
+    <a class="link-btn" href="https://discord.gg/PGngDKecvJ" target="_blank">Discord</a>
+    <a class="link-btn" href="https://www.youtube.com/@1sadazure1" target="_blank">YouTube</a>
+    <a class="link-btn" href="https://www.patreon.com/c/SadAzure?fromConcierge=true" target="_blank">Patreon</a>
+    <a class="link-btn" href="https://boosty.to/sadazure" target="_blank">Boosty</a>
+    <a class="link-btn" href="https://www.donationalerts.com/r/sadazure" target="_blank">Donations</a>
+    <a class="link-btn" href="https://www.twitch.tv/1sadazure1" target="_blank">Twitch</a>
+  </div>
+</body>
+</html>
